@@ -1,7 +1,0 @@
-<h1> Welcome John </h1>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
-</form>
-<p>Already have an account?  <a href="{% url "Login" %}"> login </a></p>
